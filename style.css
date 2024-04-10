@@ -1,0 +1,88 @@
+* { /*retirando o recuo da página*/
+    margin: 0; 
+    padding: 0;
+}
+
+header { /*chamando o header para estilização*/
+    padding: 4rem; /*danod tamanho ao header*/
+    background-color: #276285; /*dando cor ao header*/
+    font-size: 1.5em; /*tamanho da letra*/
+}
+
+header ul {
+    display: flex; /*colocando as listas uma ao lado da outra*/
+    justify-content: center; /*colocando as listas ao centro do header*/
+}
+
+header ul li {
+    margin-left: 10px; /*margem ao lado esquerdo das listas*/
+    list-style: none; /*tirando a marcação das listas */
+}
+
+header li a {
+    text-decoration: none; /*tirando a decoração da ancora para conseguir estilizar*/
+    color: white; /*cor nas letras*/
+}
+
+header li a:hover {
+    color: #368cc2e0; /*ao passar o mouse altera a cor da fonte*/
+    transition: 0.9s; /*tempo de transição*/
+}
+
+.banner1 {
+    padding: 25rem; /*tamanho da sessão*/
+    background-image: url(imagens/Banner\ 01.jpg); /*imagem de fundo*/
+    background-repeat: no-repeat; /*não repetir a imagem*/
+    background-size: cover; /*tamanho da imagem*/
+}
+
+div {
+    padding: 12rem; /*tamanho da div*/
+    background-color: #073c5c; /*cor de fundo da div*/
+    display: flex; /*tornando tudo o que tem dentro da div em flex (um ao lado do outro)*/
+    font-size: 1.5em; /*tamanho da letra*/
+    color: white; /*cor da letra*/
+}
+div p {
+    margin-right: 15px; /*margem da direita entre os paragrafos*/
+}
+
+.banner2 {
+    padding: 25rem; /*tamanho da sessão*/
+    background-image: url(imagens/Banner\ 02.jpg); /*imagem de fundo*/
+    background-repeat: no-repeat; /*não repetir a imagem*/
+    background-size: cover; /*tamanho da imagem*/
+}
+
+.paragrafos2 {
+    padding: 12rem; /*tamanho da div*/
+    background-color: #073c5c; /*cor de fundo da div*/
+    display: flex; /*tornando tudo o que tem dentro da div em flex (um ao lado do outro)*/
+    font-size: 1.5em; /*tamanho da letra*/
+    color: white; /*cor da letra*/
+}
+footer {
+    padding: 1.4rem; /*danod tamanho ao footer*/
+    background-color: #276285; /*dando cor ao footer*/
+    font-size: 1.5em; /*tamanho da letra*/
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li {
+    margin: 20 auto;
+    list-style: none;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer li a:hover {
+    color: #073c5c;
+    transition: 0.9s;
+}
